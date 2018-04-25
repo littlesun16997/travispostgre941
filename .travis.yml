@@ -1,5 +1,11 @@
 language: java
 jdk:
  - oraclejdk8
+deploy:
+ provider: heroku
+ api-key: 
+  secure: c0b9498c-28ac-43f5-be0c-4150fbe97604
+ app: travispostgre941
 before_install:
  - chmod +x mvnw
+ 

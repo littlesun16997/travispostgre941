@@ -9,4 +9,9 @@ public class DemoController {
 	public String welcome() {
 		return "welcome";
 	}
+	
+	@RequestMapping("/error")
+	public String error() {
+		return "Error page";
+	}
 }
